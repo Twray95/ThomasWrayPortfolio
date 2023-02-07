@@ -12,27 +12,23 @@ body {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  flex: 1 1 0px;
 }
 
 h1 {
   font-size: 1.5rem;
+  width: 50%;
 }
 
 .headerLinks {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  list-style: none;
-}
-
-header ul {
-  display: flex;
+  align-items: center;
   width: 50%;
 }
 
-header ul li a {
+a {
   text-decoration: none;
   color: black;
-  justify-content: space-between;
-  align-content: center;
 }
