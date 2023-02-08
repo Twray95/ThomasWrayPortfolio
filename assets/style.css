@@ -1,6 +1,6 @@
 * {
   font-size: 62.5%;
-  background-color: #362fd9;
+  background-color: white;
 }
 
 html {
@@ -34,6 +34,7 @@ h1 {
   width: 50%;
   justify-content: center;
   align-items: center;
+  background-color: var(--background);
 }
 
 .headerLinks {
@@ -41,6 +42,7 @@ h1 {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  background-color: var(--background);
   width: 50%;
   font-size: 1rem;
 }
@@ -51,10 +53,12 @@ a {
   justify-content: center;
   text-decoration: none;
   color: var(--text);
+  background-color: var(--background);
 }
 
 main {
   display: flex;
+  flex-direction: column;
 }
 
 main img {
@@ -65,7 +69,6 @@ main img {
 main p {
   display: flex;
   position: absolute;
-  align-self: end;
   box-sizing: border-box;
   border: 5px solid var(--border);
   padding: 3px;
@@ -74,6 +77,25 @@ main p {
   height: auto;
   width: auto;
   background-color: #3c84ab;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 400px;
+  align-items: end;
+  color: var(--text);
+  background-color: var(--border);
+  border-right: 5px solid var(--background);
+}
+
+aside h2 {
+  flex: 1 1 0px;
+  background-color: var(--border);
+  font-size: 1.5rem;
+  text-decoration: underline;
+  padding-right: 10px;
 }
 
 @media screen and (max-width: 768px) {
