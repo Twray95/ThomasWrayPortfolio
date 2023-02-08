@@ -82,20 +82,33 @@ main p {
 .aside {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   width: 25%;
   height: 400px;
   align-items: end;
   color: var(--text);
-  background-color: var(--border);
-  border-right: 5px solid var(--background);
 }
 
-aside h2 {
-  flex: 1 1 0px;
-  background-color: var(--border);
+.asideCard {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  justify-content: end;
   font-size: 1.5rem;
-  text-decoration: underline;
-  padding-right: 10px;
+  background-color: var(--border);
+  box-sizing: border-box;
+  border-right: 5px solid var(--background);
+  border-bottom: 5px solid var(--background);
+}
+
+aside section:hover {
+  box-shadow: 3px 3px 5px black;
+}
+
+main aside h2 {
+  background-color: var(--border);
+  padding-right: 5%;
+  padding-top: 2%;
 }
 
 @media screen and (max-width: 768px) {
