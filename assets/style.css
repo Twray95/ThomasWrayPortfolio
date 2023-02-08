@@ -146,10 +146,12 @@ main article {
 .articleCardContent {
   display: flex;
   justify-content: start;
-  align-items: start;
   padding-top: 5px;
   background-color: var(--text);
   color: var(--dark);
+  flex: 1 1 0px;
+  justify-content: space-around;
+  text-decoration: none;
 }
 
 #aboutMe {
