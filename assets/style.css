@@ -53,4 +53,10 @@ a {
     flex-direction: column;
     height: auto;
   }
+  h1,
+  .headerLinks {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+  }
 }
