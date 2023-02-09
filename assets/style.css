@@ -178,12 +178,35 @@ main article {
   flex-direction: column;
   height: 100%;
   width: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--text);
+}
+
+section div div a {
+  background-color: var(--text);
+  color: var(--dark);
+  text-decoration: none;
+  padding-top: 2px;
 }
 
 #subBox2 {
   display: flex;
+  flex-wrap: wrap;
   height: 100%;
   width: 50%;
+}
+
+.codeBoxImage4 {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 50%;
+  background-color: grey;
+  text-align: center;
+}
+
+span {
 }
 
 #aboutMe {
