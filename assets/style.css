@@ -22,6 +22,7 @@ body {
   color: var(--text);
   box-sizing: border-box;
   border: 5px solid var(--medium);
+  background-color: var(--dark);
 }
 
 h1 {
@@ -161,7 +162,10 @@ main article {
   padding-bottom: 5px;
 }
 
-@media screen and (max-width: 768px) {
+#contactMe {
+  align-items: center;
+}
+@media screen and (max-width: 815px) {
   .header {
     flex-direction: column;
     height: auto;
@@ -171,5 +175,14 @@ main article {
     width: 100%;
     justify-content: center;
     margin-bottom: 0.5rem;
+  }
+  .body {
+    height: 700px;
+  }
+  .aside {
+    height: 700px;
+  }
+  section article {
+    height: 700px;
   }
 }
